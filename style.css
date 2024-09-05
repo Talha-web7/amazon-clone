@@ -181,3 +181,31 @@
 .working-process .accordion-item .collapsing {
     transition: all 0.3s ease-in-out;
   }
+  @media screen and (max-width:900px){
+    .ul{
+        display: none;
+        
+    }
+    .button{
+        display: none;
+    }
+    .section-2{
+        flex-direction: column;
+    }
+    .companies{
+        display: none;
+    }
+    .services{
+        flex-direction: column;
+    }
+    .login form input{
+        width: 20%;
+    }
+    .card2{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    
+    }
